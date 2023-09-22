@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    background-color: blue;
+    padding: 20px 36px
+}
