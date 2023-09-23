@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Card from "./components/card"
 import data from "./data"
+import "./style.css"
 
 
 export default function App() {
@@ -22,7 +23,9 @@ export default function App() {
     return (
         <div>
             <Navbar />
-            {cards}
+            <section className="cards-list">
+                {cards}
+            </section>
         </div>
     )
 }

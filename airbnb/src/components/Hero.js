@@ -1,5 +1,6 @@
 import React from "react"
 import grid from '../images/Photo-grid.png';
+import "../style.css"
 
 export default function Hero() {
     return (
