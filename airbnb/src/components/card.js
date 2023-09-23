@@ -1,10 +1,9 @@
 import React from "react"
-import "../images/katie-zaferes.png"
 
 export default function Card(props) {
     return (
         <div className="card">
-            <img src={imagePath} className="card--image" />
+            <img src={props.img} className="card--image" />
             <div className="card--stats">
                 <img src="../images/star.png" className="card--star" />
                 <span>{props.rating}</span>

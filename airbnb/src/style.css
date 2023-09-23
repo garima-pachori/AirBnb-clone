@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -22,7 +23,11 @@ nav {
 }
 
 .nav--logo {
-    max-width: 120px;
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
 }
 
 .hero {
@@ -33,6 +38,14 @@ nav {
 .hero--photo {
     max-width: 400px;
     align-self: center;
+}
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--text {
+    margin-top: 0;
 }
 
 .card {
@@ -47,7 +60,7 @@ nav {
 
 .card--stats {
     display: flex;
-    align-items: cent
+    align-items: center;
 }
 
 .card--star {
